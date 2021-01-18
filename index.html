@@ -1,0 +1,47 @@
+<html>
+    <head>
+        <title>CORE</title>
+        <link rel="stylesheet" href="style.css" />
+        <style>
+            * {
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+                outline: none;
+            }
+
+            body {
+                background-color: rgb(25,109,212);
+                background-size: cover;
+                background-position: center;
+                font-family: Dubai;
+                justify-content: center;
+                align-items: center;
+                height: 100vh;
+                color: #fff;
+            }
+
+        </style>
+    </head>
+    <body>
+        <form>
+            <label>
+                <strong>Key</strong>
+                <input class="key" type="password" />
+            </label>
+            <button class="button" type="reset">Enter</button>
+        </form>
+        <script>
+            document.querySelector('.button').onclick = function () {
+                var key = document.querySelector('.key').value;
+                function testUrl() {
+                    window.location = "downloads.html";
+                    return false;
+                }
+                if (key == "VThi3x7ccvtmkOAl+guO9OiO7b88DsxmKBQJfDFrb4M=") {
+                    window.location.href = "samdownloads.html"   
+                }
+            }
+        </script>
+    </body>
+</html>
