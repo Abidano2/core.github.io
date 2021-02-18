@@ -4,7 +4,7 @@ document.querySelector('.button').onclick = function () {
         window.location = "downloads.html";
         return false;
     }
-    if (key == firebase.database().ref("Keys/1/Key.Value")) {
+    if (key == "VThi3x7ccvtmkOAl+guO9OiO7b88DsxmKBQJfDFrb4M=") {
         window.location.href = "samdownloads.html"
     } else if (key == "jR1IENF8OjYV2Xmqu/uSWAix+q69QhhgkfT+dbBnNcI=") {
         window.location.href = "georgedownloads.html"
